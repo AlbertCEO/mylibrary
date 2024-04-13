@@ -74,7 +74,7 @@ function App() {
           title="Card Title"
           description="This is the card description section. You can add more details about the product here"
           buttonText="Learn More"
-          link="card2"
+          link="card"
         />
         <Books 
            imgSrc="https://picsum.photos/id/193/300/200"
