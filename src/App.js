@@ -90,7 +90,7 @@ function App() {
           title="Card Title"
           description="This is the card description section. You can add more details about the product here"
           buttonText="Learn More"
-          link="card2"
+          link="card2" 
         /> 
       </div>
     </div>
