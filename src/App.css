@@ -8,7 +8,7 @@
 
 .col {
   height: 100%;
-  display: flex;
+  display: flex; 
   flex-direction: column;
   align-items: flex-start;
   margin-right: 30px;
