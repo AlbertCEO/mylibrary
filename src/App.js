@@ -49,7 +49,7 @@ function App() {
           buttonText="Read A Book"
           link="card2"
         />
-        <Books
+        <Books 
         imgSrc="https://picsum.photos/id/201/300/200"
           imgAlt="Card Image 3"
           title="Card Title"
