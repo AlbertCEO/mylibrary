@@ -91,7 +91,7 @@ function App() {
           description="This is the card description section. You can add more details about the product here"
           buttonText="Learn More"
           link="card2"
-        />
+        /> 
       </div>
     </div>
   );
