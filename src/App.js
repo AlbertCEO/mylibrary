@@ -3,9 +3,26 @@ import { Books } from "./components/books";
 
 function App() {
   return (
+    <div>
+      <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">MyLibrary</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div className="App">
       <div className="col">
-      
         <Books
           imgSrc="https://picsum.photos/id/201/300/200"
           imgAlt="The Five Wishes of Mr. Murray McBride"
@@ -93,6 +110,7 @@ function App() {
           link="card2" 
         /> 
       </div>
+    </div>
     </div>
   );
 }
