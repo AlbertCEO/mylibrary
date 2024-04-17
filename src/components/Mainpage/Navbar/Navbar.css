@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  .nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2em 7rem;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-size: 18px;
+    margin: 2rem auto;
+    position: relative;
+  }
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    height: 48px;
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.55rem;
+  }
+  .nav li .active {
+    background-color: #333;
+  }
+  
+  .nav li a {
+    padding: 0 1.8em;
+  }
+  
+  .connect-wallet {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .connect-wallet-a {
+    background-color: #a02279;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .img-logo {
+    width: 41.99px;
+    height: 36.37px;
+  }
+  
+  .img-logo-name {
+    width: 188.1px;
+    height: 32.19px;
+  }
+  
+  .nav > .nav-btn {
+      display: none;
+  }
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:1200px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+        border-radius: 10px;
+      }
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #a02279;
+      }
+      .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #a02279;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav > #nav-check:checked ~ .nav-links {
+        height: 300px;
+        
+      }
+      .nav > #nav-check:checked ~ .nav-links > ul {
+        display: inline;
+      }
+      .nav > #nav-check:checked ~ .nav-links > ul > li{
+        height: 60px;
+        border: 1px solid black;
+      }
+    }
