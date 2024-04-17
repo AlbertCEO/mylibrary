@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="main-footer">
         <div className="footer-logo">
         <div className="logo">
-        <img src="./images/logo/Group2.png" alt=""></img>
-        <img src="./images/logo/Group2.png" alt=""></img>
+        <img className="img-logo" src="./images/logo/Group2.png" alt="" />
+        MyLibrary
         </div>
         <div className="third-party-logo">
         <img src="./images/logo/face.png" alt="" style={{height:"16px"}}></img>

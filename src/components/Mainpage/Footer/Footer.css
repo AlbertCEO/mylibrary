@@ -14,10 +14,15 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 4em 5em;
   }
+  .img-logo {
+    width: 41.99px;
+    height: 36.37px;
+  }
   
-  
-  
-  
+  .img-logo-name {
+    width: 188.1px;
+    height: 32.19px;
+  }
   
   @media (max-width: 1100px) {
     .image1 {
