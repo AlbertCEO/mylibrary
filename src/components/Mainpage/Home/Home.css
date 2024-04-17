@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #F0F8FF;
+    --primary-color-dark: #007FFF;
+  }
 * {
     font-family: Georgia, "Times New Roman", Times, serif;
   }
@@ -49,7 +53,7 @@
     top: 86.48%;
     bottom: 0.02%;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+    background: linear-gradient(90deg, var(--primary-color-dark) 11.45%, var(--primary-color-dark) 11.46%);
     width: 30%;
     height: 54px;
     border-radius: 0 10px 10px 0;

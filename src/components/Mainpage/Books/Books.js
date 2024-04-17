@@ -9,8 +9,7 @@ const Books = (props) => {
           <div>
             <img src={props.books[0].imgSrc} alt="" className="card-img" />
             <CardDetails>
-              <p>{props.books[0].title}</p>
-              <p style={{ fontWeight: "bold" }}>{props.books[0].space}</p>
+              <p style={{fontWeight:"bold"}}>{props.books[0].title}</p>
             </CardDetails>
             <CardDetails>
               <p>{props.books[0].description}</p>
