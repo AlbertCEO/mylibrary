@@ -1,5 +1,6 @@
 import "./Books.css";
 import { Card, CardDetails } from "../UI/Card";
+import Rate from "../UI/Rate";
 
 const Books = (props) => {
   return (
@@ -23,6 +24,7 @@ const Books = (props) => {
               </a>
               </p>
             </CardDetails>
+            <Rate></Rate>
           </div>
         </Card>
       </div>

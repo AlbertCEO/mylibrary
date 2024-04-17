@@ -11,7 +11,7 @@ const Rate = (props) => {
   }
   return (
     <div className={classes}>
-      <Rating onClick={handleRating} fillColor="#F0F8FF" size="20" initialValue={rating}></Rating>
+      <Rating onClick={handleRating} fillColor="#007FFF" size="20" initialValue={rating}></Rating>
     </div>
   );
 };
