@@ -23,7 +23,7 @@ function Portfolio(props){
                 <input
              className="place-input"
               type="text"
-              placeholder={"Location"}
+              placeholder={"Genre"}
               />
              
             </ul>
