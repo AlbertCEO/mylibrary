@@ -1,0 +1,66 @@
+.footer {
+  background-color: #1d1d1e;
+  font-family: "Red Rose";
+  font-style: normal;
+  margin-top: 3em;
+}
+
+.main-footer {
+  height: 322px;
+  background-color: #1d1d1e;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 4em 5em;
+}
+.img-logo {
+  width: 41.99px;
+  height: 36.37px;
+}
+
+.img-logo-name {
+  width: 188.1px;
+  height: 32.19px;
+}
+
+@media (max-width: 1100px) {
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: none;
+  }
+  .image3 {
+    display: none;
+  }
+  .lower-menu {
+    display: none;
+  }
+}
+
+.logo {
+  margin-bottom: 4em;
+}
+
+.third-party-logo img {
+  padding-right: 3em;
+  margin-bottom: 1em;
+}
+
+.footer-menu {
+  display: flex;
+  width: 75%;
+  gap: 70px;
+}
+.lower-menu {
+  padding: 0, 5em;
+}
+.lower-menu ul {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.lower-menu li {
+  padding: 0.6em;
+}
