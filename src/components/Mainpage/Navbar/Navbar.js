@@ -1,21 +1,18 @@
 import React from "react";
 import "./Navbar.css";
-import {Link} from "react-router-dom"
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
- 
- 
   return (
     <nav className="nav">
-    <input type="checkbox" id="nav-check" />
+      <input type="checkbox" id="nav-check" />
       <Link to="/">
         <div className="logo">
           <img className="img-logo" src="./images/logo/Group2.png" alt="" />
           MyLibrary
         </div>
-        </Link>
-        <div className="nav-btn">
+      </Link>
+      <div className="nav-btn">
         <label htmlFor="nav-check">
           <span></span>
           <span></span>
@@ -25,34 +22,22 @@ const Navbar = () => {
       <div className="nav-links">
         <ul>
           <li className="active">
-            <a href="/">
-              Home
-            </a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/#">
-              About
-            </a>
+            <a href="/#">About</a>
           </li>
           <li>
-            <a href="/#">
-              Resume
-            </a>
+            <a href="/#">Resume</a>
           </li>
           <li>
             <Link to="/portfolio">Portfolio</Link>
-             
-            
           </li>
           <li>
-            <a href="/#">
-              Contact
-            </a>
+            <a href="/#">Contact</a>
           </li>
         </ul>
-      
       </div>
-     
     </nav>
   );
 };

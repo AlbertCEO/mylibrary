@@ -16,7 +16,8 @@ const Home = (props) => {
           </h2>
           <p>
             we provide you access to quality and affordable books
-            <br /> in different libraries around the world, get a chance to turn your <br />
+            <br /> in different libraries around the world, get a chance to turn
+            your <br />
             imagination to reality at your comfort zone{" "}
           </p>
           <form>
@@ -28,12 +29,11 @@ const Home = (props) => {
             <button className="search-btn">Search</button>
           </form>
         </div>
-        <img src="./images/Group1.png" alt="" className="dock-image"/>
+        <img src="./images/Group1.png" alt="" className="dock-image" />
       </div>
-     <Books books={props.books}/>
-     <Footer/>
+      <Books books={props.books} />
+      <Footer />
     </div>
-    
   );
 };
 export default Home;
