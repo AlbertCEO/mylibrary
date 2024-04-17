@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Mainpage/Home/Home";
+import Portfolio from './components/Portfolio/Portfolio';
 
 const books = [
   {
@@ -85,6 +86,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home books={books} />} />
+          <Route path='/Portfolio' element={<Portfolio books={books}/>}/>
         </Routes>
       </Router>
     </div>
