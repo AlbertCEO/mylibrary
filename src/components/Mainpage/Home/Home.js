@@ -26,16 +26,9 @@ const Home = (props) => {
             <button className="search-btn">Search</button>
           </form>
         </div>
-        <img src="./images/Group 4028.png" alt="" className="dock-image"/>
+        <img src="./images/Group1.png" alt="" className="dock-image"/>
       </div>
-      <div className="home-div">
-        <img
-          className="image-span-details"
-          src="./images/Frame 137.png"
-          alt=""
-        />
-      </div>
-     <Books metas={props.books}/>
+     <Books books={props.books}/>
     </div>
     
   );

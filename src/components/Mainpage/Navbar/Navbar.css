@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #F0F8FF;
+    --primary-color-dark: #007FFF;
+  }
 * {
     box-sizing: border-box;
   }
@@ -6,7 +10,7 @@
   }
   .nav {
     background-color: white;
-    color: black;
+    color: var(--primary-color-dark);
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -41,17 +45,6 @@
   
   .nav li a {
     padding: 0 1.8em;
-  }
-  
-  .connect-wallet {
-    text-decoration: none;
-    list-style: none;
-  }
-  
-  .connect-wallet-a {
-    background-color: #a02279;
-    border-radius: 10px;
-    border: none;
   }
   
   .img-logo {
@@ -91,13 +84,13 @@
         display: block;
         width: 25px;
         height: 10px;
-        border-top: 2px solid #a02279;
+        border-top: 2px solid var(--primary-color-dark);
       }
       .nav > .nav-links {
         position: absolute;
         display: block;
         width: 100%;
-        background-color: #a02279;
+        background-color: var(--primary-color);
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;

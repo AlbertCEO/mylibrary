@@ -11,12 +11,8 @@ const Navbar = () => {
     <input type="checkbox" id="nav-check" />
       <Link to="/">
         <div className="logo">
-          <img className="img-logo" src="./images/logo/Vector.png" alt="" />
-          <img
-            className="img-logo-name"
-            src="./images/logo/Vector (1).png"
-            alt=""
-          />
+          <img className="img-logo" src="./images/logo/Group2.png" alt="" />
+          MyLibrary
         </div>
         </Link>
         <div className="nav-btn">

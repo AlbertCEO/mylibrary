@@ -4,7 +4,6 @@ import { Card, CardDetails } from "../UI/Card";
 const Books = (props) => {
   return (
     <div className="books">
-      <h3>Inspiration for your next adventure</h3>
       <div className="grid">
         <Card>
         
